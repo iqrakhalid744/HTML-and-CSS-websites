@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #726E6D;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content:left;
+   
+}
+.name{
+    display: flex;
+    justify-content: left;
+    margin-left: -900px;
+    margin-top: 30px;
+
+    
+}
+.z{
+    font-size: 20px;
+    color: #151B54;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+
+.header{
+    background-image: url(./images/background\ images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+
+ input.int {
+    color: green;
+    width: 30%;
+    margin-top: 90px;
+    margin-left: 480px;
+    padding: 15px 120px;
+}
+
+button{
+    padding: 15px 40px;
+    background-color: cadetblue;
+    color: white;
+    font-size: 12px;
+}
+
+/* Section */
+.latest{
+    margin-top: 60px;
+    font-size: 35px;
+    color: cadetblue;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 1.4rem;
+
+}
+
+.pictures{
+    width:330px;
+    
+}
+
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12, .photo13, .photo13, .photo14, .photo15, .photo16{
+    padding-left: 10px;
+    margin-right: 10px;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+.date{
+    color: darkgray;
+    font-size: 17px;
+
+}
+
+.collect{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 20px;
+
+}
+.veiws{
+    margin-left: 100px;
+    color: darkgray;
+    font-size: 18px;
+}
+
+.overlay {
+    position: absolute;
+    opacity:0;
+    top: 0;
+    left:0;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    height: 60%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    transition-property: all;
+    border: 3px solid white;
+   
+}
+
+.photo1:hover .overlay, .photo2:hover .overlay, .photo3:hover .overlay, .photo4:hover .overlay, .photo5:hover .overlay, .photo6:hover .overlay, .photo7:hover .overlay, .photo8:hover .overlay, .photo9:hover .overlay, .photo10:hover .overlay, .photo11:hover .overlay, .photo12:hover .overlay, .photo13, .photo13:hover .overlay, .photo14:hover .overlay, .photo15:hover .overlay, .photo16:hover .overlay {
+    opacity: 1;
+}
+
+/* Buttons */
+.buttons{
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+   
+    
+}
+.prev{
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.next{
+    margin-right: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Gray */
+.gray{
+    background-color: #EEEEEE;
+    margin-top: 80px;
+    height: 70vh;
+   
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 80px;
+}
+.about{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.ab, .contact{
+    font-size: 30px;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.boot{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 2rem;
+    color: darkgray;
+}
+.our{
+    margin-top: 40px;
+}
+
+.ap{
+    line-height: 2rem;
+    font-weight: bold;
+    color: darkgray;
+    cursor: pointer;
+}
+.ap:hover{
+    color: cadetblue;
+}
+
+.fonts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 2rem;
+    margin-right: 40px;
+   color: gray;
+   
+}
+.face{
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  transition: background-color 1s ease-in;
+   
+}
+.face:hover{
+    background-color: cadetblue;
+}
+
+a.use {
+    margin-left: -70px;
+    padding-top: 100px;
+    font-size: 15px;
+}
+
+.copy{
+    margin-left: 170px;
+    color: darkgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.design{
+    margin-right: -700px;
+    font-size: 19px;
+}
+
+/* Videos */
+
+.myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 20px;
+
+  }
+
+  .search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -250px;
+  }
+
+  /* About */
+  .temp{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .cat{
+    font-size: 30px;
+    color: cadetblue;
+    margin-left: 30px;
+
+  }
+
+  .abouts{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 50px;
+  }
+  .side img{
+    width: 550px;
+    height: 300px;
+    display: flex;
+    margin-left:30px;
+   
+  }
+.small p{
+    display: flex;
+   margin-right: 70px;
+   margin-top: 30px;
+   line-height: 2rem;
+   color: darkgray;
+}
+
+/* Columns */
+.columns{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.left, .right{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: cadetblue;
+}
+.line{
+    line-height: 2rem;
+    color: darkgray;
+}
+/* Icons */
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+margin-top: 70px;
+}
+
+.icon1, .icon2, .icon3{
+margin-left: 30px;
+
+}
+
+.one{
+    font-size: 30px;
+    color: cadetblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.two{
+    font-size: 18px;
+    color: darkgray;
+    line-height: 2rem;
+}
+.read{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 130px;
+   border-radius: 9px;
+   font-size: 20px;
+}
+
+/* Contact */
+.page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 4rem;
+}
+.con, .or, .loc{
+    font-size: 30px;
+    color: cadetblue;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+form{
+    margin-left: 30px;
+}
+input{
+    padding: 20px ;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+label[for=fname] {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label[for=email] {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+    width: 100%;
+    
+}
+textarea{
+    width: 90%;
+    height: 25vh;
+}
+
+.add{
+    margin-left: 40px;
+    color: darkgray;
+    line-height: 2rem;
+}
+.map{
+    margin-left: -200px;
+    width: 800px;
+    height: 500px;
+    
+}
+
+/* Chiefs */
+.chiefs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 60px;
+   margin-bottom: 70px;
+}
+
+.white{
+    width: 310px;
+    height: 200px;
+}
+.chief1, .chief2, .chief3, .chief4{
+    margin-left: 20px;
+   
+}
+.nam{
+    font-size: 30px;
+    color: cadetblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.offic{
+    font-size: 25px;
+    color: palevioletred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 18px;
+    color: darkgray;
+    line-height:1.4rem;
+    margin-bottom: 20px;
+}
+.font{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 1rem;
+    margin-right: 40px;
+   color: gray;
+   
+}
+.faces{
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  transition: background-color 1s ease-in;
+   
+}
+
+/* Media Queries */
+@media screen and (max-width:908px) {
+    
+    .z{
+        margin-left: 850px;
+        font-size: 15px;
+    }
+    input.int{
+        margin-left: 250px;
+        margin-top: 80px;
+        width: 50%;
+       color: cadetblue;
+       border: 1px solid cadetblue;
+       
+    }
+   
+
+    .latest{
+        margin-left: 20px;
+    }
+    .photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .pictures{
+        width:360px;
+        
+    }
+    .date, .veiws{
+        font-size: 19px;
+    }
+    .footer{
+        display: flex;
+       
+        flex-direction: column;
+    }
+   .ab {
+    margin-right: 500px;
+    font-size: 26px;
+   }
+   .boot{
+    margin-right:300px ;
+    
+   }
+
+   .our{
+    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2px;
+   }
+
+   .fonts{
+    margin-left: 200px;
+    margin-top: -10px;
+   }
+
+   .side{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 400px;
+   }
+
+   .read{
+    margin-left: 20px;
+   }
+   .page{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+input{
+    width: 80%;
+}
+select{
+    width: 40%;
+    
+}
+textarea{
+    width: 60%;
+}
+
+.map{
+    width: 90%;
+    margin-left: 40px;
+}
+.chiefs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url('./images/back2_genre.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    padding: 20px 10px;
+    background-color: brown;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 10px 5px 2px yellow inset ;
+    
+}
+a{
+    color: wheat;
+    font-size: 20px;
+}
+a:hover{
+    color: green;
+}
+
+.Music-Genres{
+   
+    padding-top: 80px;
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    
+}
+
+.Rock-box, .Pop-box, .Classical-music-box, .Soul-music-box, .Blues-box, .Hiphop-music-box, .Folk-music-box, .Punk-rock-box, .Disco-box {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #5d6d7e;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: -5px -10px 5px 5px green inset;
+    width: 30%;
+    color: black;
+    transition: transform 0.2s;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+
+    
+}
+.Rock-box {
+    transition: transform 1s ease-in-out;
+}
+
+.Pop-box{
+    transition: transform 1s ease-in-out;
+}
+.Classical-music-box{
+    transition:transform 1s ease-in-out;
+}
+.Soul-music-box{
+    transition:transform 0.5s ease-in-out;
+}
+
+.Blues-box, .Hiphop-music-box, .Folk-music-box, .Punk-rock-box, .Disco-box{
+    transition:transform 0.5s ease-in-out;
+}
+
+.Rock-box:hover{
+    transform:scale(1.1)
+}
+.Pop-box:hover{
+    transform: scale(1.1);
+}
+.Classical-music-box:hover{
+    transform: scale(1.1);
+}
+.Soul-music-box:hover{
+    transform: scale(1.1);
+}
+.Blues-box:hover, .Hiphop-music-box:hover, .Folk-music-box:hover, .Punk-rock-box:hover, .Disco-box:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.img{
+    width: 100%;
+    max-width: 200px;
+    height : 210px;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid black;
+  
+}
+
+
+.heading{
+    font-size: 30px;
+    text-decoration: underline;
+    color: blue;
+   
+}
+
+.Music-Genres .heading:hover{
+    transform: scale(1.7);
+}
+
+.x{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:#512e5f ;
+    border-radius: 2px ;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 1s ease-in-out;
+    box-shadow: -2px -2px ;
+   
+}
+
+.btn:hover{
+    color: #7b241c;
+    background-color: #f7dc6f;
+}
+
+.footer{
+    background-color: #7b241c;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    box-shadow: 5px 10px 5px  coral inset;
+   
+}
+a{
+    font-size: 20px;
+}
+
+.footer li:hover{
+    transform: scale(1.8);
+}

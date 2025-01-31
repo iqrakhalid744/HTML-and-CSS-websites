@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A8A9AD;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;   
+    position: fixed;
+   
+
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.navbar a{
+    font-size: 18px;
+    color: #2B547E;
+    font-weight: bold;
+}
+
+ .navbar a:hover{
+    color: #368BC1;
+}
+
+.navbar li:hover{
+    transform: scale(1.1);
+}
+
+/* Courses */
+.images{
+    width: 390px;
+    height: 230px;
+   margin-left: 15px;
+   margin-top: 10px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-top: 8px;
+    gap: 2rem;
+    margin-top: 130px;
+    background-image: url(./images/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.course1, .course2, .course3, .course4, .course5, .course6, .course7, .course8, .course9, .course10, .course11, .course12, .course13, .course14, .course15{
+    transition: transform 0.3s ease-in-out;
+    border-radius: 6px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 96%; 
+    height: 57vh;
+   
+  
+}
+
+.course1:hover, .course2:hover, .course3:hover, .course4:hover, .course5:hover, .course6:hover, .course7:hover, .course8:hover, .course9:hover, .course10:hover, .course11:hover, .course12:hover, .course13:hover, .course14:hover, .course15:hover{
+    transform: scale(1.1);
+}
+
+.tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.dur, h3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+    
+}
+
+.btn, .bt{
+    margin-left: 70px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 15px;
+    color: #2B547E;
+}
+.btn:hover, .bt:hover{
+    background-color: #A8A9AD;
+    color: beige;
+
+}
+
+/* Staff */
+.staff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 2rem;
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-bottom: 30px;
+}
+
+.prof1, .prof2, .prof3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: 6px ;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-top: 20px;
+    transition: transform 0.4s ease-in-out;
+    width: 90%;
+    height: 60vh;
+    box-shadow: 4px 3px 1px;
+    
+}
+.prof1:hover, .prof2:hover, .prof3:hover{
+    transform: scale(1.2);
+}
+
+.pro{
+    width: 330px;
+    height: 300px;
+}
+.p{
+   font-size: 25px;
+   margin-top: 20px;
+   text-decoration: underline;
+
+}
+.footer {
+    background-color: #A8A9AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 20px;
+    border: 1px solid black;
+}
+.footer a{
+        font-size: 18px;
+        color: #2B547E;
+        font-weight: bold;
+    
+}
+
+.footer li a:hover {
+    color: #368BC1;
+}
+.footer li:hover{
+    transform: scale(1.1);
+}
+
+/* Forms */
+
+.container{
+    width: 100%;
+    
+    padding: 30px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    background-color:grey;
+   display: block;
+   align-items: center;
+   padding: 30px;
+   width: 40%;
+   margin-top: 40px;
+   height: 60vh;
+   
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: larger;
+}
+label[for=name] {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+label[for=number] {
+  color: coral;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+label[for=email] {
+  color: brown;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+label[for=pass] {
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  label[for=message] {
+    color: skyblue;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .btnt {
+    color: blueviolet;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+   width: 40%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+ }
+
+ h2.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-shadow: 2px 2px #ff0000;
+ }
+
+ .container2{
+    width: 100%; 
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .fom {
+    background-color:grey;
+   display: block;
+   align-items: center;
+   padding: 30px;
+   width: 40%;
+   margin-top: 40px;
+   height: 67vh;
+   
+}

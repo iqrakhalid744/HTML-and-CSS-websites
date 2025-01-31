@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Roboto", sans-serif ;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    padding: 20px 10px ;
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 5px 10px 5px 5px green;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li:hover{
+    transform: scale(1.5);
+
+}
+
+a:hover{
+    color: green;
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.container {
+    background-image: url('./images/back_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 20px;
+   
+    
+}
+.tour-box-1, .tour-box-2, .tour-box-3, .tour-box-4, .tour-box-5, .tour-box-6, .tour-box-7, .tour-box-8, .tour-box-9, .tour-box-10, .tour-box-11, .tour-box-12{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 80px;
+    width: 30%;
+    color: black; 
+    background-color: #808b96; 
+    box-shadow: 5px 10px 5px 5px #a6acaf; 
+    padding-bottom: 10px;
+}
+.tour-box-1, .tour-box-2, .tour-box-3, .tour-box-4, .tour-box-5, .tour-box-6, .tour-box-7, .tour-box-8, .tour-box-9, .tour-box-10, .tour-box-11, .tour-box-12 {
+    transition: transform 0.5s ease-in-out;
+}
+
+.tour-box-1:hover, .tour-box-2:hover, .tour-box-3:hover, .tour-box-4:hover, .tour-box-5:hover, .tour-box-6:hover, .tour-box-7:hover, .tour-box-8:hover, .tour-box-9:hover, .tour-box-10:hover, .tour-box-11:hover, .tour-box-12:hover {
+    transform: scale(1.3);
+}
+
+.name{
+    background-color: #ebf5fb;
+    padding: 10px;
+    font-size: 30px;
+    color: #2471a3;
+    border: 1px solid black;
+
+
+}
+h3.details {
+    font-size: 30px;
+    color: #283747;
+    
+}
+.price{
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+   
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:cadetblue ;
+    border-radius: 2px ;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 1s ease-in-out;
+    box-shadow: -2px -2px ;
+}
+.btn:hover{
+    color: #7b241c;
+    background-color: #f7dc6f;
+}
+.footer{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    box-shadow: 5px 10px 5px  green inset;
+   
+}
+a{
+    font-size: 20px;
+    color: green;
+}
+a:hover {
+    color: #7b241c;
+}
+.footer li:hover{
+    transform: scale(1.8);
+}
+
+.container-form {
+   
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color:cadetblue;
+    display: block;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 5px 10px coral inset;
+}
+input {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+label[for=name] {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label[for=date] {
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label[for=email] {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+label[for=city] {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label[for=number] {
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 20px;
+}
+label[for=travelers] {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+textarea {
+    color: darkgreen;
+    width: 100%;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    transition: background-color 1s ease-in-out;
+    border-radius: 6px;
+    box-shadow: 5px -2px ;
+}
+
+button {
+    color: blue;
+    background-color: yellow;
+}
+
+
